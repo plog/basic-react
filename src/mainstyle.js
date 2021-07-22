@@ -61,5 +61,12 @@ export const mainstyle = makeStyles({
   drawerImage:{
     width:'40%',
     margin:10
-  }
+  },
+  card:{
+    maxWidth: '85%',
+    marginBottom:'15px'
+  },
+  cardMedia: {
+    height: 170,
+  },
 })

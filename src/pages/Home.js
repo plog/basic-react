@@ -3,6 +3,7 @@ import {
   Button,
   Card,
   CardContent,
+  CardMedia
 } from "@material-ui/core";
 import { mainstyle } from "../mainstyle";
 
@@ -10,7 +11,8 @@ export default function Home() {
   const style = mainstyle();
   return (
     <div>
-      <Card>
+      <Card className={style.card}>
+      <CardMedia image="https://picsum.photos/800" className={style.cardMedia}/>
       <CardContent className={style.cardcontent}>
       <Typography gutterBottom variant="h5" component="h2">
         Home
